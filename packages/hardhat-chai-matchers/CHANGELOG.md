@@ -1,5 +1,11 @@
 # @nomicfoundation/hardhat-chai-matchers
 
+## 2.0.5
+
+### Patch Changes
+
+- 72bf9f663: Added support for Typed objects (thanks @RenanSouza2!)
+
 ## 2.0.4
 
 ### Patch Changes
