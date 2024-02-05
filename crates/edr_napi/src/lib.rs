@@ -26,3 +26,8 @@ mod trace;
 mod tracer;
 mod transaction;
 mod withdrawal;
+
+use rpmalloc::RpMalloc;
+
+#[global_allocator]
+static ALLOC: RpMalloc = RpMalloc;
